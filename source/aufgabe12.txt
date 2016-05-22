@@ -1,0 +1,3 @@
+Bei gleichen Namen koennte das Programm nicht die Matrikelnummer angeben/ mehrere Moeglichkeiten.
+
+
