@@ -1,3 +1,18 @@
+
 Bei gleichen Namen koennte das Programm nicht die Matrikelnummer angeben/ mehrere Moeglichkeiten.
+Da der Name als Key fuer die Map gewählt wurde, kann der Name der Personen nicht verändert werden.
+Sinnvoller waere es wenn man die Matrikelnummer als Key nutzen wuerde.
 
+Fuer die Suche:
+iterator find (const key_type& k);
+const_iterator find (const key_type& k) const;
 
+it = mymap.find('b'); <-- veraendert nichts, greift auf das Originalelement zu
+
+Zum Einfugen:
+map[key] = std::make_pair(first, second);
+
+std::map<datatyp a, datatyp b> name;
+name[key] = Element mit datatyp b
+
+Quelle: cplusplus.com

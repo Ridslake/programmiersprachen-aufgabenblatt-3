@@ -10,7 +10,7 @@ class Circle
 			float getradius();       //get Radius
 
 		bool operator< (Circle const& b);
-		bool operator> (Circle const& b);		
+		bool operator> (Circle const& b); //comparison		
 		bool operator== (Circle const& b);
 
 	private:

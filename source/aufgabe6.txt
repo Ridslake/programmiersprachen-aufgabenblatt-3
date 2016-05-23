@@ -1,0 +1,22 @@
+Sequentielle Containerklassen:
+array
+vector
+list
+forward_list
+deque
+
+Assoziative Containerklassen
+unorderd_map
+unorderd_multimap
+unorderd_multiset
+unorderd_set
+map
+multimap
+multiset
+set
+
+Unterschied:
+Seq:
+Funktionen wie front(), back() mit denen man auf den Anfang und das Ende des Containers zugreifen kann. Außerdem gibt es Funtkionen mit denen man das Ende des Containers modifizieren kann (Einfügen / Entfernen). Dass direkte Indizieren beherrschen Vektoren und Deque
+
+Sequentielle Container: Die Elemente werden über einen veränderlichen Index angesprochen, ihre Position in der Liste z.B.. Ein assoziativer Container speichert ein Element unter einem unveränderlichen Schlüssel ab und ist über diesen immer aufrufbar. Dies ist der Hauptunterschied.
